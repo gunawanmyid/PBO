@@ -2,9 +2,11 @@ package chun;
 
 public class Laporan1 {
 	
+static String cun= "Welcome Laporan 1 \n";
+	
 public static void main(String[] args) {
         
-		System.out.println("WELCOME LAPORAN 1 \n");
+		System.out.println(cun);
        
         biodata();
         aritmatika();
