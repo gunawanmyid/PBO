@@ -2,47 +2,48 @@ package chun;
 
 public class Laporan1 {
 	
-static String cun= "Welcome Laporan 1 \n";
+static String cun= "Welcome Laporan 1 \n";			//deklarasi variabel class
 	
-public static void main(String[] args) {
+public static void main(String[] args) {			//method utama
         
-		System.out.println(cun);
+	System.out.println(cun);				//mencetak teks lalu enter
        
-        biodata();
-        aritmatika();
+        biodata();						//memanggil method biodata
+        aritmatika();						//memanggil method Aritmatika
 
     }
 	
-	public static void aritmatika()
+	public static void aritmatika()				//method aritmatika
 	{
-		//buat variabel untuk menampung data
-		 int a=3,b=4,c=1;
+	
+		int a=3,b=4,c=1;				//membuat variabel local untuk menampung data
 	        double d=0;
 	       
 	        System.out.println("\n=== Operasi Aritmatika ===\n");
-	        //tambah
-	        c=a+b;
+	       	
+	       	//melakukan operasi aritmatika
+	        c=a+b;								//menambahkan a dengan b
 	        System.out.println("Hasil dari "+a+"+"+b+"="+c);
-	        //kurang
-	        c=a-b;
+	        
+	        c=a-b;								//mengurangkan b dari a
 	        System.out.println("Hasil dari "+a+"-"+b+"="+c);
-	        //kali
-	        c=a*b;
+	        
+	        c=a*b;								//mengalikan a dengan b
 	        System.out.println("Hasil dari "+a+"*"+b+"="+c);
-	        //bagi
-	        d=(double)a/b;
+	        
+	        d=(double)a/b;							//membagi a dengan b
 	        System.out.println("Hasil dari "+a+"/"+b+"="+d);
-	        //modulus
-	        c=a%b;
+	        
+	        c=a%b;								//menghitung sisa dari pembagian a dan b
 	        System.out.println("Hasil dari "+a+"mod"+b+"="+c);
 	        
 	}
 	
-	public static void biodata()
+	public static void biodata()						//method biodata
 	{
-		String name ="Rasimah";
+		String name ="Rasimah";						//deklarasi variabel lokal
 		String nim ="60200112028";
-		System.out.println("Nama "+name+ "\nNim  "+nim);
+		System.out.println("Nama "+name+ "\nNim  "+nim);		//mencetak nama dan nim
 	}
 
 }
