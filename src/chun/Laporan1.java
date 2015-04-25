@@ -1,5 +1,7 @@
 package chun;
 
+// // Approve by Gunawan, Date: April 25
+
 public class Laporan1 {
 	
 static String cun= "Welcome Laporan 1 \n";			//deklarasi variabel class
